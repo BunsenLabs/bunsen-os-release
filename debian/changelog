@@ -1,3 +1,9 @@
+bunsen-os-release (8-3) unstable; urgency=medium
+
+  * debian/control: Recommend the lsb-release package
+
+ -- Jens John <dev@2ion.de>  Sat, 23 May 2015 18:21:20 +0200
+
 bunsen-os-release (8-2) unstable; urgency=medium
 
   * Support for lsb-release
