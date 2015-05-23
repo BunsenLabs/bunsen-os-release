@@ -1,0 +1,10 @@
+ANSI_COLOR="0;34"
+BUG_REPORT_URL="http://github.com/BunsenLabs"
+HOME_URL="http://bunsenlabs.org"
+ID=bunsenlabs
+ID_LIKE="debian"
+NAME="BunsenLabs GNU/Linux"
+PRETTY_NAME="BunsenLabs GNU/Linux 8 (Hydrogen)"
+SUPPORT_URL="http://bunsenlabs.org"
+VERSION="8 (Hydrogen)"
+VERSION_ID="8"

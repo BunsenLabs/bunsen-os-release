@@ -1,0 +1,18 @@
+Source: bunsen-os-release
+Section: admin
+Priority: optional
+Maintainer: root <root@debian-container>
+Build-Depends: debhelper (>= 9), config-package-dev (>= 5.1)
+Standards-Version: 3.9.5
+Homepage: https://github.com/bunsenlabs/bunsen-os-release
+
+Package: bunsen-os-release
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: systemd
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Provides /etc/os-release for BunsenLabs GNU/Linux
+ /etc/os-release is a configuration file that has been introduced with
+ systemd. It provides various pieces of information about the local
+ system.

@@ -1,0 +1,5 @@
+bunsen-os-release (8-1) unstable; urgency=low
+
+  * Initial release with systemd support
+
+ -- Jens John <dev@2ion.de>  Sat, 23 May 2015 16:12:58 +0200
