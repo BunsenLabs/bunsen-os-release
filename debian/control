@@ -12,7 +12,7 @@ Depends: ${misc:Depends}
 Recommends: systemd, lsb-release
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Provides /etc/os-release for BunsenLabs GNU/Linux
- /etc/os-release is a configuration file that has been introduced with
- systemd. It provides various pieces of information about the local
- system.
+Description: Provides /etc/os-release and /etc/lsb-release for BunsenLabs GNU/Linux
+ The contents of /etc/lsb-release are used by lsb_release(1) and various shell scripts
+ to obtain information about the running system. /etc/os-release(5) is a systemd
+ specification and contains similar, but also more comprehensive information.
