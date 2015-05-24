@@ -1,3 +1,9 @@
+bunsen-os-release (8-5) unstable; urgency=medium
+
+  * debian/control: Add Vcs-* fields to the source package
+
+ -- Jens John <dev@2ion.de>  Sun, 24 May 2015 14:25:54 +0200
+
 bunsen-os-release (8-4) unstable; urgency=medium
 
   * debian/control: Update package description
