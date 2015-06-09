@@ -1,3 +1,9 @@
+bunsen-os-release (8.1-1) unstable; urgency=medium
+
+  * Update OS version to 8.1 as Jessie 8.1 was released on 2015-06-06
+
+ -- Jens John <dev@2ion.de>  Tue, 9 Jun 2015 18:22:52 +0200
+
 bunsen-os-release (8-5) unstable; urgency=medium
 
   * debian/control: Add Vcs-* fields to the source package
