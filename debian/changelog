@@ -1,3 +1,9 @@
+bunsen-os-release (8.2-1) bunsen-hydrogen; urgency=medium
+
+  * Update for Debian 8.2 release
+
+ -- Jens John <dev@2ion.de>  Wed, 9 Sep 2015 22:19:51 +0200
+
 bunsen-os-release (8.1-3) bunsen-hydrogen; urgency=medium
 
   * Change suite to bunsen-hydrogen.
