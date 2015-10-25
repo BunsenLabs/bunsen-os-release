@@ -1,0 +1,14 @@
+Suite: bunsen-hydrogen
+RepositoryType: deb
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg\.bunsenlabs\.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 8 'Hydrogen'
+Component: main
+CompDescription: Officially supported
+
+Suite: jessie-backports
+RepositoryType: deb
+ParentSuite: bunsen-hydrogen
+Description: BL ports collection
+
