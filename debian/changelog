@@ -1,3 +1,9 @@
+bunsen-os-release (8.2.1-1) bunsen-hydrogen; urgency=medium
+
+  * Add man page explaining purpose and caveats
+
+ -- Jens John <dev@2ion.de>  Thu, 17 Dec 2015 13:00:28 +0100
+
 bunsen-os-release (8.2-1) bunsen-hydrogen; urgency=medium
 
   * Update for Debian 8.2 release
