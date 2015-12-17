@@ -18,3 +18,15 @@ Description: Provides /etc/os-release and /etc/lsb-release for BunsenLabs GNU/Li
  The contents of /etc/lsb-release are used by lsb_release(1) and various shell scripts
  to obtain information about the running system. /etc/os-release(5) is a systemd
  specification and contains similar, but also more comprehensive information.
+
+Package: bunsen-python-apt-template
+Architecture: all
+Depends: ${misc:Depends}, python-apt-common
+Description: Provides a distribution template for python-apt
+ Distribution templates used by python-apt are essential to the correct
+ functioning of tools depending on that library, for example
+ software-properties-{kde,gtk}.  Hitherto, due to the absence of a
+ BunsenLabs-specific template, these tools were broken on BunsenLabs.
+ .
+ This package resolves these issues insofar as tools do not hard-code
+ distribution names.
