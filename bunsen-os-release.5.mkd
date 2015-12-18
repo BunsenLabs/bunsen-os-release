@@ -1,0 +1,55 @@
+% bunsen-os-release(5) User Manual
+% Jens John <dev@2ion.de>
+% Version 8.2
+
+# NAME
+
+bunsen-os-release - Operating system identification
+
+# SYNOPSIS
+
+/etc/os/release 
+
+/etc/lsb-release
+
+# DESCRIPTION
+
+BunsenLabs ships its own OS identification files as part of the
+**bunsen-os-release** package, which are located in their standard paths
+as described in **fsg**(1) (part of the Linux Standard Base) and
+**os-release**(5) (part of the systemd configuration environment). The
+purpose of these files is to provide third-party programs with
+information about the OS such as name, distribution, and version. In
+**os-release**(5) in particular also allows for declaring the operating
+system family, in the sense of BunsenLabs being derived from Debian.
+Programs which use this information include for example the GRUB
+bootloader, which installs a boot menu with operating system selection
+options, or package management software.
+
+# IMPLEMENTATION
+
+BunsenLabs preserves the original Debian OS information files.
+**bunsen-os-release** only defers the existing files to their BL
+editions. If it is desired to restore the system identification to plain
+Debian GNU/Linux, simply uninstalling the package is sufficient:
+
+    apt-get purge bunsen-os-release
+
+This removal doesn't have any side effects on other parts of the
+BunsenLabs system configuration.
+
+# KNOWN PROBLEMS
+
+Some third-party software fails to function as expected with the
+BusnenLabs identification files in place, most notably software dealing
+with package management. An often appearing case is the
+software-properties-{gtk,kde} tool set, another example is the NodeJS
+package manager npm. These applications break since they hard-code
+distribution names like *Debian* or *Ubuntu* and disregard unknown
+names, as well as distribution relationships as defined by
+**os-release(5)**. A workaround for such problems, short of reporting a
+bug upstream, is to just remove the **bunsen-os-release** package.
+
+# SEE ALSO
+
+**os-release**(5), **fsg**(1), **lsb\_release**(1)
