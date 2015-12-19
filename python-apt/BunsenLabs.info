@@ -3,7 +3,7 @@ RepositoryType: deb
 BaseURI: http://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
-Description: BunsenLabs 8 'Hydrogen'
+Description: BunsenLabs 8 'bunsen-hydrogen'
 Component: main
 CompDescription: Officially supported
 
