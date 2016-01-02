@@ -47,8 +47,10 @@ software-properties-{gtk,kde} tool set, another example is the NodeJS
 package manager npm. These applications break since they hard-code
 distribution names like *Debian* or *Ubuntu* and disregard unknown
 names, as well as distribution relationships as defined by
-**os-release(5)**. A workaround for such problems, short of reporting a
-bug upstream, is to just remove the **bunsen-os-release** package.
+**os-release(5)**.
+
+Install the package **bunsen-python-apt-template** in order to
+accomodate this kind of software.
 
 # SEE ALSO
 
