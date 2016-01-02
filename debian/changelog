@@ -1,3 +1,13 @@
+bunsen-os-release (8.2.3-1) bunsen-hydrogen; urgency=high
+
+  * Starting with this version, we ship the package bunsen-python-apt-templates
+    in order to make BL compatible with programs using the python-apt library
+    for managing repositories.
+  * As part of this change, DISTRIB_CODENAME as reported by lsb_release is now
+    set to 'bunsen-hydrogen' instead of just 'Hydrogen'.
+
+ -- Jens John <dev@2ion.de>  Sat, 2 Jan 2016 15:38:36 +0900
+
 bunsen-os-release (8.2.1-1) bunsen-hydrogen; urgency=medium
 
   * Add man page explaining purpose and caveats
