@@ -1,3 +1,9 @@
+bunsen-os-release (8.2.3-2) bunsen-hydrogen; urgency=high
+
+  * bunsen-python-apt-templates: Pre-Depend on python-apt-common.
+
+ -- Jens John <dev@2ion.de>  Sat, 2 Jan 2016 16:24:36 +0900
+
 bunsen-os-release (8.2.3-1) bunsen-hydrogen; urgency=high
 
   * Starting with this version, we ship the package bunsen-python-apt-templates
