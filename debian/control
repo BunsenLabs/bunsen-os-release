@@ -10,7 +10,7 @@ Vcs-Git:  https://github.com/bunsenlabs/bunsen-os-release.git
 
 Package: bunsen-os-release
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, bunsen-python-apt-template
 Recommends: systemd, lsb-release
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
@@ -22,7 +22,7 @@ Description: Provides /etc/os-release and /etc/lsb-release for BunsenLabs GNU/Li
 Package: bunsen-python-apt-template
 Architecture: all
 Depends: ${misc:Depends}
-Pre-Depends: python-apt-common
+Enhances: software-properties-gtk, software-properties-kde
 Description: Provides a distribution template for python-apt
  Distribution templates used by python-apt are essential to the correct
  functioning of tools depending on that library, for example
