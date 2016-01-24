@@ -1,3 +1,9 @@
+bunsen-os-release (8.3-1) bunsen-hydrogen; urgency=high
+
+  * Sync release version with new Debian 8.3 point release.
+
+ -- Jens John <dev@2ion.de>  Sun, 24 Jan 2016 13:27:08 +0900
+
 bunsen-os-release (8.2.3-3) bunsen-hydrogen; urgency=high
 
   * bunsen-python-apt-templates is now a dependency of bunsen-os-release.
