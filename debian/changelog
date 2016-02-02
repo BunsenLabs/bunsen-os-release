@@ -1,9 +1,15 @@
+bunsen-os-release (8.3.1-2) bunsen-hydrogen; urgency=medium
+
+  * Correct date error in debian/changelog.
+
+ -- Jens John <dev@2ion.de>  Tue, 02 Feb 2016 16:46:53 +0100
+
 bunsen-os-release (8.3.1-1) bunsen-hydrogen; urgency=high
 
   * os-release: Change SUPPORT_URL to point to the forums
   * os-release: Use https:// in all mentioned URLs
 
- -- Jens John <dev@2ion.de>  Tue, 1 Feb 2016 22:27:08 +0900
+ -- Jens John <dev@2ion.de>  Tue, 2 Feb 2016 22:27:08 +0900
 
 bunsen-os-release (8.3-1) bunsen-hydrogen; urgency=high
 
