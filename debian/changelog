@@ -1,3 +1,10 @@
+bunsen-os-release (8.3.1-1) bunsen-hydrogen; urgency=high
+
+  * os-release: Change SUPPORT_URL to point to the forums
+  * os-release: Use https:// in all mentioned URLs
+
+ -- Jens John <dev@2ion.de>  Tue, 1 Feb 2016 22:27:08 +0900
+
 bunsen-os-release (8.3-1) bunsen-hydrogen; urgency=high
 
   * Sync release version with new Debian 8.3 point release.
