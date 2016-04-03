@@ -1,3 +1,9 @@
+bunsen-os-release (8.4-1) bunsen-hydrogen; urgency=medium
+
+  * New Debian point release 8.4
+
+ -- Jens John <dev@2ion.de>  Sun, 03 Apr 2016 21:11:53 +0900
+
 bunsen-os-release (8.3.1-2) bunsen-hydrogen; urgency=medium
 
   * Correct date error in debian/changelog.
