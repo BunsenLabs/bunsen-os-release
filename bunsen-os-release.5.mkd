@@ -1,16 +1,18 @@
 % bunsen-os-release(5) User Manual
-% Jens John <dev@2ion.de>
-% Version 8.2
+% J. John <twoion@bunsenlabs.org>
+% Version 8.5
 
 # NAME
 
-bunsen-os-release - Operating system identification
+bunsen-os-release - Operating system and vendor identification
 
 # SYNOPSIS
 
 /etc/os/release 
 
 /etc/lsb-release
+
+/etc/dpkg/origins/bunsenlabs
 
 # DESCRIPTION
 
@@ -19,7 +21,8 @@ BunsenLabs ships its own OS identification files as part of the
 as described in **fsg**(1) (part of the Linux Standard Base) and
 **os-release**(5) (part of the systemd configuration environment). The
 purpose of these files is to provide third-party programs with
-information about the OS such as name, distribution, and version. In
+information about the OS such as name, distribution, and version.
+
 **os-release**(5) in particular also allows for declaring the operating
 system family, in the sense of BunsenLabs being derived from Debian.
 Programs which use this information include for example the GRUB
@@ -42,16 +45,17 @@ BunsenLabs system configuration.
 
 Some third-party software fails to function as expected with the
 BusnenLabs identification files in place, most notably software dealing
-with package management. An often appearing case is the
-software-properties-{gtk,kde} tool set, another example is the NodeJS
-package manager npm. These applications break since they hard-code
-distribution names like *Debian* or *Ubuntu* and disregard unknown
-names, as well as distribution relationships as defined by
-**os-release(5)**.
+with package management.
+
+An often appearing case is the software-properties-{gtk,kde} tool set,
+another example is the NodeJS package manager npm. These applications
+break since they hard-code distribution names like *Debian* or *Ubuntu*
+and disregard unknown names, as well as distribution relationships as
+defined by **os-release(5)**.
 
 Install the package **bunsen-python-apt-template** in order to
 accomodate this kind of software.
 
 # SEE ALSO
 
-**os-release**(5), **fsg**(1), **lsb\_release**(1)
+**os-release**(5), **fsg**(1), **lsb\_release**(1), **deb-origin**(5)
