@@ -1,12 +1,12 @@
 Source: bunsen-os-release
 Section: admin
 Priority: optional
-Maintainer: Jens John <dev@2ion.de>
+Maintainer: Jens John <twoion@bunsenlabs.org>
 Build-Depends: debhelper (>= 9), config-package-dev (>= 5.1), pandoc, make
 Standards-Version: 3.9.5
 Homepage: https://github.com/bunsenlabs/bunsen-os-release
-Vcs-Browser:  https://github.com/bunsenlabs/bunsen-os-release
-Vcs-Git:  https://github.com/bunsenlabs/bunsen-os-release.git
+Vcs-Browser: https://github.com/bunsenlabs/bunsen-os-release
+Vcs-Git: https://github.com/bunsenlabs/bunsen-os-release.git
 
 Package: bunsen-os-release
 Architecture: all
