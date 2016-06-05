@@ -1,3 +1,11 @@
+bunsen-os-release (8.5-1) bunsen-hydrogen; urgency=medium
+
+  * Update package version to 8.5 for new Debian point release.
+  * Update maintainer email address in debian/control.
+  * Update package description to reflect the expanded scope of the package.
+
+ -- Jens John <twoion@bunsenlabs.org>  Sun, 05 Jun 2016 14:27:53 +0900
+
 bunsen-os-release (8.4.1-1) bunsen-hydrogen; urgency=medium
 
   * Set deb-origin(5) to bunsenlabs and provide vendor identification.
