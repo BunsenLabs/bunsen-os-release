@@ -1,4 +1,4 @@
 DISTRIB_ID="BunsenLabs"
-DISTRIB_DESCRIPTION="BunsenLabs GNU/Linux 8.4 (Hydrogen)"
-DISTRIB_RELEASE="8.4"
+DISTRIB_DESCRIPTION="BunsenLabs GNU/Linux 8.5 (Hydrogen)"
+DISTRIB_RELEASE="8.5"
 DISTRIB_CODENAME="bunsen-hydrogen"
