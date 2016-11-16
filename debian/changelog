@@ -1,3 +1,10 @@
+bunsen-os-release (8.6-1) bunsen-hydrogen; urgency=medium
+
+  * New Debian point release 8.6 (I am late I know)
+  * python-apt: update mirror list
+
+ -- Jens John <dev@2ion.de>  Wed, 16 Nov 2016 14:38:50 +0100
+
 bunsen-os-release (8.5.1-1) bunsen-hydrogen; urgency=medium
 
   * Update and correct typos in man page.
