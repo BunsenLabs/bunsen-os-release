@@ -1,4 +1,4 @@
-bunsen-os-release (8.6-2) bunsen-hydrogen; urgency=medium
+bunsen-os-release (8.6.1-1) bunsen-hydrogen; urgency=medium
 
   * The last commit did not actually update anything.
 
