@@ -1,3 +1,9 @@
+bunsen-os-release (8.7-1) bunsen-hydrogen; urgency=medium
+
+  * Point release 8.7.
+
+ -- Jens John <dev@2ion.de>  Sun, 15 Jan 2017 15:33:27 +0100
+
 bunsen-os-release (8.6.1-1) bunsen-hydrogen; urgency=medium
 
   * The last commit did not actually update anything.
