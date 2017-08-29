@@ -1,3 +1,9 @@
+bunsen-os-release (8.9-1) bunsen-hydrogen; urgency=medium
+
+  * Point release 8.9.
+
+ -- Jens John <dev@2ion.de>  Tue, 29 Aug 2017 21:48:23 +0200
+
 bunsen-os-release (8.7-1) bunsen-hydrogen; urgency=medium
 
   * Point release 8.7.
