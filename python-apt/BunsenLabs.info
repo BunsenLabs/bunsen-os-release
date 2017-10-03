@@ -12,3 +12,16 @@ RepositoryType: deb
 ParentSuite: bunsen-hydrogen
 Description: BL ports collection
 
+Suite: helium
+RepositoryType: deb
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 9 Helium
+Component: main
+CompDescription: Officially supported
+
+Suite: stretch-backports
+RepositoryType: deb
+ParentSuite: helium
+Description: BunsenLabs 9 Helium ports collection
