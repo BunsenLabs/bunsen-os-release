@@ -5,12 +5,16 @@ MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 8 'bunsen-hydrogen'
 Component: main
-CompDescription: Officially supported
+CompDescription: Officially supported (oldstable)
 
 Suite: jessie-backports
 RepositoryType: deb
-ParentSuite: bunsen-hydrogen
-Description: BL ports collection
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 8 Hydrogen ports collection
+Component: main
+CompDescription: Officially supported (oldstable)
 
 Suite: helium
 RepositoryType: deb
@@ -23,5 +27,9 @@ CompDescription: Officially supported
 
 Suite: stretch-backports
 RepositoryType: deb
-ParentSuite: helium
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 9 Helium ports collection
+Component: main
+CompDescription: Officially supported
