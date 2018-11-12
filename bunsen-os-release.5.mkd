@@ -1,6 +1,6 @@
 % bunsen-os-release(5) User Manual
 % J. John <twoion@bunsenlabs.org>
-% Version 9.5
+% Version 9.6
 
 # NAME
 
