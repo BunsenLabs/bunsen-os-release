@@ -1,3 +1,9 @@
+bunsen-os-release (9.7-1) helium; urgency=medium
+
+  * Point release 9.7.
+
+ -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 10:56:01 +0100
+
 bunsen-os-release (9.6-1) helium; urgency=medium
 
   * Point release 9.6.

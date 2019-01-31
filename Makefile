@@ -2,23 +2,28 @@
 # Copyright (C) 2015 Jens John <dev@2ion.de>
 # Licensed under the GNU General Public License v3+
 
-MANPAGE_SOURCES = $(wildcard *.mkd)
-MANPAGE_TARGETS = $(patsubst %.mkd,%.gz,$(MANPAGE_SOURCES))
+include config.mk
 
-mancat = $(subst .,,$(suffix $(patsubst %.gz,%,$(1))))
+all: $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS)
 
-all: $(MANPAGE_TARGETS)
+.PHONY: clean
+clean:
+	rm -f -- $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS) *.sed
+
+install: $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS)
+	$(foreach m,$^,$(shell install -Dm644 $(m) $(DESTDIR)$(PREFIX)/usr/share/man/man$(call mancat,$(m))/$(m)))
+	install -Dm644 $(LSB_RELEASE_FILE_TARGET) $(DESTDIR)$(PREFIX)/etc/$(LSB_RELEASE_FILE_TARGET)
+	install -Dm644 $(OS_RELEASE_FILE_TARGET) $(DESTDIR)$(PREFIX)/etc/$(OS_RELEASE_FILE_TARGET)
+
+$(LSB_RELEASE_FILE_TARGET): config.mk
+	printf '%s\n' "$$LSB_RELEASE_FILE" > $@
+	bash -n $@
+
+$(OS_RELEASE_FILE_TARGET): config.mk
+	printf '%s\n' "$$OS_RELEASE_FILE" > $@
+	bash -n $@
 
 %.gz: %.mkd
-	$(info PANDOC $<)
-	@pandoc -s -f markdown -t man -o $(@:.gz=) $<
-	$(info GZIP $(@:.gz=))
-	@gzip -f9 $(@:.gz=)
-
-clean:
-	@rm -f -- $(MANPAGE_TARGETS)
-	@echo Clean.
-
-install: $(MANPAGE_TARGETS)
-	$(foreach m,$^,$(shell install -Dm644 $(m) $(DESTDIR)$(PREFIX)/usr/share/man/man$(call mancat,$(m))/$(m)))
-
+	sed "s/%VERSION%/$(OS_VERSION_ID)/" $< > $(<).sed
+	pandoc -s -f markdown -t man -o $(@:.gz=) $(<).sed
+	gzip -f9 $(@:.gz=)
