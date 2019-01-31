@@ -33,3 +33,21 @@ MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 9 Helium ports collection
 Component: main
 CompDescription: Officially supported
+
+Suite: lithium
+RepositoryType: deb
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 10 Lithium
+Component: main
+CompDescription: Officially supported
+
+Suite: buster-backports
+RepositoryType: deb
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 10 Lithium ports collection
+Component: main
+CompDescription: Officially supported
