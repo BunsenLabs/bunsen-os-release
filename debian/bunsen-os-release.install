@@ -1,2 +1,4 @@
+os-release.bunsen etc/
+lsb-release.bunsen etc/
 dpkg/origins/default.bunsen etc/dpkg/origins/
 dpkg/origins/bunsenlabs etc/dpkg/origins/
