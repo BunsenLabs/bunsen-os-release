@@ -12,8 +12,6 @@ clean:
 
 install: $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS)
 	$(foreach m,$^,$(shell install -Dm644 $(m) $(DESTDIR)$(PREFIX)/usr/share/man/man$(call mancat,$(m))/$(m)))
-	install -Dm644 $(LSB_RELEASE_FILE_TARGET) $(DESTDIR)$(PREFIX)/etc/$(LSB_RELEASE_FILE_TARGET)
-	install -Dm644 $(OS_RELEASE_FILE_TARGET) $(DESTDIR)$(PREFIX)/etc/$(OS_RELEASE_FILE_TARGET)
 
 $(LSB_RELEASE_FILE_TARGET): config.mk
 	printf '%s\n' "$$LSB_RELEASE_FILE" > $@
