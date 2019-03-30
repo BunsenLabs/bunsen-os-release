@@ -44,7 +44,7 @@ BunsenLabs system configuration.
 # KNOWN PROBLEMS
 
 Some third-party software fails to function as expected with the
-BusnenLabs identification files in place, most notably software dealing
+BunsenLabs identification files in place, most notably software dealing
 with package management.
 
 An often appearing case is the software-properties-{gtk,kde} tool set,
