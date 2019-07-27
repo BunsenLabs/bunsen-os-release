@@ -1,3 +1,14 @@
+bunsen-os-release (10.0.1-1) lithium; urgency=medium
+
+  * os-release: Divert /usr/lib/os-release instead of /etc/os-release in order
+    to accommodate particularities in the lsb-release code of Debian.
+    Normally, /etc/os-release should override /usr/lib/os-release, but the
+    mentioned Debian code does not respect that unless extra environment
+    variables are set.
+  * Document a harmless warning occurring at install time from dpkg-divert.
+
+ -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 11:39:04 +0100
+
 bunsen-os-release (10.0-1) lithium; urgency=medium
 
   * Point release 10.0.

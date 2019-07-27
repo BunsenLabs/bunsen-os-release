@@ -1,3 +1,2 @@
-/etc/os-release.bunsen
-/etc/lsb-release.bunsen
+/usr/lib/os-release.bunsen
 /etc/dpkg/origins/default.bunsen

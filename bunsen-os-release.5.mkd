@@ -8,9 +8,9 @@ bunsen-os-release - Operating system and vendor identification
 
 # SYNOPSIS
 
-/etc/os/release 
+/etc/os-release (symlink)
 
-/etc/lsb-release
+/usr/lib/os-release
 
 /etc/dpkg/origins/bunsenlabs
 
