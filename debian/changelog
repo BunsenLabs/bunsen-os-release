@@ -1,3 +1,9 @@
+bunsen-os-release (10.0.2-1) lithium; urgency=medium
+
+  * Address upgrade issues from helium->lithium packages.
+
+ -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 11:39:04 +0100
+
 bunsen-os-release (10.0.1-1) lithium; urgency=medium
 
   * os-release: Divert /usr/lib/os-release instead of /etc/os-release in order
