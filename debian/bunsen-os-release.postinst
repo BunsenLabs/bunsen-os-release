@@ -6,7 +6,7 @@
 #
 case "$1" in
   configure)
-    dpkg-divert --list bunsen-os-release | while read DIVERSION; do
+    LC_ALL=C dpkg-divert --list bunsen-os-release | while read DIVERSION; do
       case "$DIVERSION" in
         */etc/os-release*)
           dpkg-divert --no-rename --remove /etc/os-release
