@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#
+# config-package-dev does not seem to handle diversion changes right in Buster.
+# No idea how to do this better.
+#
+case "$1" in
+  configure)
+    dpkg-divert --list bunsen-os-release | while read DIVERSION; do
+      case "$DIVERSION" in
+        */etc/os-release*)
+          dpkg-divert --no-rename --remove /etc/os-release
+          rm -f -- /etc/os-release.bunsen /etc/os-release.bunsen-orig
+          ln -sf /usr/lib/os-release /etc/os-release
+          ;;
+        */etc/lsb-release*)
+          dpkg-divert --no-rename --remove /etc/lsb-release
+          rm -f -- /etc/lsb-release /etc/lsb-release.bunsen /etc/lsb-release.bunsen-orig
+          ;;
+      esac
+    done
+    ;;
+esac
+
+#DEBHELPER#
