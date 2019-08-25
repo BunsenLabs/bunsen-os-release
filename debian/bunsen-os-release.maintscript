@@ -1,0 +1,2 @@
+rm_conffile /etc/os-release.bunsen 10.0.3-1~ bunsen-os-release
+rm_conffile /etc/lsb-release.bunsen 10.0.3-1~ bunsen-os-release

@@ -1,6 +1,0 @@
-#!/bin/bash
-#DEBHELPER#
-if [[ "$1" = "configure" ]] || [[ "$1" = "abort-remove" ]]; then
-  rm -f -- /etc/os-release.bunsen
-  rm -f -- /etc/lsb-release.bunsen
-fi

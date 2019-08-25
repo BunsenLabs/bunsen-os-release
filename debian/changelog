@@ -1,3 +1,9 @@
+bunsen-os-release (10.0.3-1) lithium; urgency=medium
+
+  * Use .undisplace instead of custom postinst to "undisplace" some files.
+
+ -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 11:39:04 +0100
+
 bunsen-os-release (10.0.2-1) lithium; urgency=medium
 
   * Address upgrade issues from helium->lithium packages.
