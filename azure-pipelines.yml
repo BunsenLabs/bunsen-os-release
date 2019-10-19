@@ -1,0 +1,12 @@
+trigger:
+  - lithium
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    apt-get install -y docker.io && systemctl start docker
+    ./docker-build.sh
+  displayName: 'BUILD'
+- publish: './build/*.*'
