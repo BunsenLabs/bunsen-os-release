@@ -1,3 +1,10 @@
+bunsen-os-release (10.0.4~bldev1-1) lithium; urgency=medium
+
+  * Non-maintainer upload.
+  * Update from git.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 08 Nov 2019 17:16:14 +0900
+
 bunsen-os-release (10.0.3-1) lithium; urgency=medium
 
   * Use .undisplace instead of custom postinst to "undisplace" some files.
