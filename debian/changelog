@@ -1,3 +1,10 @@
+bunsen-os-release (9.9-1) helium; urgency=medium
+
+  * Point release 9.9. A bit late, but this change is only cosmetic. Reported
+    by forum user @exe.
+
+ -- Jens John <dev@2ion.de>  Sun, 10 May 2020 14:34:50 +0200
+
 bunsen-os-release (9.8-1) helium; urgency=medium
 
   * Point release 9.8.
