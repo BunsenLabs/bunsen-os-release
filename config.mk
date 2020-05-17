@@ -5,7 +5,7 @@ include /usr/include/gmsl
 #
 
 OS_CODENAME       = Lithium
-OS_VERSION_ID     = 10.0
+OS_VERSION_ID     = 10.4
 OS_VERSION        = $(OS_CODENAME) ($(OS_VERSION_ID))
 OS_COLOR          = 0;34
 OS_BUG_REPORT_URL = https://forums.bunsenlabs.org/viewforum.php?id=14
