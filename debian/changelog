@@ -1,3 +1,9 @@
+bunsen-os-release (10.5.0-1) lithium; urgency=medium
+
+  * Match Debian Buster version.
+
+ -- Jens John <dev@2ion.de>  Sun, 02 Aug 2020 11:58:07 +0200
+
 bunsen-os-release (10.4.0-1) lithium; urgency=medium
 
   * Match Debian Buster version.
