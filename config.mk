@@ -4,7 +4,7 @@ include /usr/include/gmsl
 # OS identifiers
 #
 
-OS_BUG_REPORT_URL     = https://forums.bunsenlabs.org/viewforum.php?id = 14
+OS_BUG_REPORT_URL     = https://forums.bunsenlabs.org/viewforum.php?id=14
 OS_CODENAME           = Lithium
 OS_CODENAME_LOWERCASE = $(call lc,$(OS_CODENAME))
 OS_COLOR              = 0;34
