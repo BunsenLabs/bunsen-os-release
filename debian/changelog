@@ -1,3 +1,13 @@
+bunsen-os-release (10.5.1-1) lithium; urgency=medium
+
+  * Work around a Debian bug with python3-apt distro ID detection, which
+    prevented add-apt-repository from software-properties-common from working
+    when bunsen-os-release was present (91cd81d).
+  * Add missing keys VERSION_CODENAME and PRIVACY_POLICY_URL to os-release
+    (4faf0b2).
+
+ -- Jens John <dev@2ion.de>  Sun, 23 Aug 2020 11:43:07 +0200
+
 bunsen-os-release (10.5.0-1) lithium; urgency=medium
 
   * Match Debian Buster version.
