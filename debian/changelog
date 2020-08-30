@@ -1,3 +1,10 @@
+bunsen-os-release (10.5.2-1) lithium; urgency=medium
+
+  * Revert addition of VERSION_CODENAME to os-release to contain unintended
+    sideeffects of the previous change.
+
+ -- Jens John <dev@2ion.de>  Sun, 30 Aug 2020 23:21:44 +0200
+
 bunsen-os-release (10.5.1-1) lithium; urgency=medium
 
   * Work around a Debian bug with python3-apt distro ID detection, which
