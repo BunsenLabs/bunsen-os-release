@@ -1,5 +1,5 @@
 % bunsen-os-release(5) User Manual
-% J. John <twoion@bunsenlabs.org>
+% The BunsenLabs Linux Project <admin@bunsenlabs.org>
 % Version %VERSION%
 
 # NAME
