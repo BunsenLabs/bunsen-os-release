@@ -51,3 +51,21 @@ MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 10 Lithium ports collection
 Component: main
 CompDescription: Officially supported
+
+Suite: beryllium
+RepositoryType: deb
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 11 Beryllium
+Component: main
+CompDescription: Officially supported
+
+Suite: bullseye-backports
+RepositoryType: deb
+BaseURI: http://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 11 Beryllium ports collection
+Component: main
+CompDescription: Officially supported
