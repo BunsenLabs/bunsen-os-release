@@ -1,3 +1,12 @@
+bunsen-os-release (11.0-1) beryllium; urgency=medium
+
+  * Update package to support beryllium and bullseye-backports distros
+  * BunsenLabs will identify only as a major version, starting with 11,
+    stopping the tracking of Debian point releases, which was, to be honest,
+    quite pointless.
+
+ -- Jens John <dev@2ion.de>  Sun, 11 Apr 2021 17:27:45 +0200
+
 bunsen-os-release (10.5.2-1) lithium; urgency=medium
 
   * Revert addition of VERSION_CODENAME to os-release to contain unintended
