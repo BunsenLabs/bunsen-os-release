@@ -1,3 +1,9 @@
+bunsen-os-release (11.1-1) beryllium; urgency=medium
+
+  * Package mirror list update: simplified infrastructure
+
+ -- twoion <twoion@bunsenlabs.org>  Mon, 28 Mar 2022 22:14:01 +0200
+
 bunsen-os-release (11.0-1) beryllium; urgency=medium
 
   * Update package to support beryllium and bullseye-backports distros
