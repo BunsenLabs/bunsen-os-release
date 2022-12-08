@@ -1,3 +1,10 @@
+bunsen-os-release (11.2-3) beryllium; urgency=medium
+
+  * Set Maintainer to myself.
+  * Replace all http with https.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 08 Dec 2022 18:06:04 +0900
+
 bunsen-os-release (11.1-1.1) beryllium; urgency=medium
 
   * Non-maintainer upload.
