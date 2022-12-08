@@ -1,6 +1,6 @@
 Suite: bunsen-hydrogen
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 8 'bunsen-hydrogen'
@@ -9,7 +9,7 @@ CompDescription: Officially supported (oldstable)
 
 Suite: jessie-backports
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 8 Hydrogen ports collection
@@ -18,7 +18,7 @@ CompDescription: Officially supported (oldstable)
 
 Suite: helium
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 9 Helium
@@ -27,7 +27,7 @@ CompDescription: Officially supported
 
 Suite: stretch-backports
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 9 Helium ports collection
@@ -36,7 +36,7 @@ CompDescription: Officially supported
 
 Suite: lithium
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 10 Lithium
@@ -45,7 +45,7 @@ CompDescription: Officially supported
 
 Suite: buster-backports
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 10 Lithium ports collection
@@ -54,7 +54,7 @@ CompDescription: Officially supported
 
 Suite: beryllium
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 11 Beryllium
@@ -63,7 +63,7 @@ CompDescription: Officially supported
 
 Suite: bullseye-backports
 RepositoryType: deb
-BaseURI: http://pkg.bunsenlabs.org/debian/
+BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 11 Beryllium ports collection
