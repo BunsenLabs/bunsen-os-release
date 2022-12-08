@@ -1,4 +1,10 @@
-bunsen-os-release (11.2-3) beryllium; urgency=medium
+bunsen-os-release (11.3-2) beryllium; urgency=medium
+
+  * Fix copyright file format.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 08 Dec 2022 18:22:57 +0900
+
+bunsen-os-release (11.3-1) beryllium; urgency=medium
 
   * Set Maintainer to myself.
   * Replace all http with https.
