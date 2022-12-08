@@ -1,3 +1,10 @@
+bunsen-os-release (11.1-1.1) beryllium; urgency=medium
+
+  * Non-maintainer upload.
+  * NMU for Beryllium testing repo.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 19 Jun 2022 18:33:10 +0900
+
 bunsen-os-release (11.1-1) beryllium; urgency=medium
 
   * Package mirror list update: simplified infrastructure
