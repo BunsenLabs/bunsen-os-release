@@ -9,7 +9,7 @@ bunsen-os-release (11.1-1) beryllium; urgency=medium
 
   * Package mirror list update: simplified infrastructure
 
- -- twoion <twoion@bunsenlabs.org>  Mon, 28 Mar 2022 22:14:01 +0200
+ -- packages <project@bunsenlabs.org>  Mon, 28 Mar 2022 22:14:01 +0200
 
 bunsen-os-release (11.0-1) beryllium; urgency=medium
 
@@ -18,14 +18,14 @@ bunsen-os-release (11.0-1) beryllium; urgency=medium
     stopping the tracking of Debian point releases, which was, to be honest,
     quite pointless.
 
- -- Jens John <dev@2ion.de>  Sun, 11 Apr 2021 17:27:45 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 11 Apr 2021 17:27:45 +0200
 
 bunsen-os-release (10.5.2-1) lithium; urgency=medium
 
   * Revert addition of VERSION_CODENAME to os-release to contain unintended
     sideeffects of the previous change.
 
- -- Jens John <dev@2ion.de>  Sun, 30 Aug 2020 23:21:44 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 30 Aug 2020 23:21:44 +0200
 
 bunsen-os-release (10.5.1-1) lithium; urgency=medium
 
@@ -35,19 +35,19 @@ bunsen-os-release (10.5.1-1) lithium; urgency=medium
   * Add missing keys VERSION_CODENAME and PRIVACY_POLICY_URL to os-release
     (4faf0b2).
 
- -- Jens John <dev@2ion.de>  Sun, 23 Aug 2020 11:43:07 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 23 Aug 2020 11:43:07 +0200
 
 bunsen-os-release (10.5.0-1) lithium; urgency=medium
 
   * Match Debian Buster version.
 
- -- Jens John <dev@2ion.de>  Sun, 02 Aug 2020 11:58:07 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 02 Aug 2020 11:58:07 +0200
 
 bunsen-os-release (10.4.0-1) lithium; urgency=medium
 
   * Match Debian Buster version.
 
- -- Jens John <dev@2ion.de>  Sun, 17 May 2020 11:56:25 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 17 May 2020 11:56:25 +0200
 
 bunsen-os-release (10.0.4~bldev1-1) lithium; urgency=medium
 
@@ -60,13 +60,13 @@ bunsen-os-release (10.0.3-1) lithium; urgency=medium
 
   * Use .undisplace instead of custom postinst to "undisplace" some files.
 
- -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 11:39:04 +0100
+ -- packages <project@bunsenlabs.org>  Thu, 31 Jan 2019 11:39:04 +0100
 
 bunsen-os-release (10.0.2-1) lithium; urgency=medium
 
   * Address upgrade issues from helium->lithium packages.
 
- -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 11:39:04 +0100
+ -- packages <project@bunsenlabs.org>  Thu, 31 Jan 2019 11:39:04 +0100
 
 bunsen-os-release (10.0.1-1) lithium; urgency=medium
 
@@ -77,13 +77,13 @@ bunsen-os-release (10.0.1-1) lithium; urgency=medium
     variables are set.
   * Document a harmless warning occurring at install time from dpkg-divert.
 
- -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 11:39:04 +0100
+ -- packages <project@bunsenlabs.org>  Thu, 31 Jan 2019 11:39:04 +0100
 
 bunsen-os-release (10.0-1) lithium; urgency=medium
 
   * Point release 10.0.
 
- -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 11:39:04 +0100
+ -- packages <project@bunsenlabs.org>  Thu, 31 Jan 2019 11:39:04 +0100
 
 bunsen-os-release (9.7-1) helium; urgency=medium
 
@@ -91,68 +91,68 @@ bunsen-os-release (9.7-1) helium; urgency=medium
   * Generate lsb-release and os-release ID files from templates
   * Allow bumping of man page version from template definition
 
- -- Jens John <dev@2ion.de>  Thu, 31 Jan 2019 10:56:01 +0100
+ -- packages <project@bunsenlabs.org>  Thu, 31 Jan 2019 10:56:01 +0100
 
 bunsen-os-release (9.6-1) helium; urgency=medium
 
   * Point release 9.6.
 
- -- Jens John <dev@2ion.de>  Mon, 12 Nov 2018 23:54:50 +0100
+ -- packages <project@bunsenlabs.org>  Mon, 12 Nov 2018 23:54:50 +0100
 
 bunsen-os-release (9.5.1-1) helium; urgency=medium
 
   * python-apt: Drop use of ParentSuite key from templates
 
- -- Jens John <dev@2ion.de>  Fri, 10 Aug 2018 22:26:42 +0200
+ -- packages <project@bunsenlabs.org>  Fri, 10 Aug 2018 22:26:42 +0200
 
 bunsen-os-release (9.5-1) helium; urgency=medium
 
   * Point release 9.5.
 
- -- Jens John <dev@2ion.de>  Sat, 10 Feb 2018 19:58:07 +0100
+ -- packages <project@bunsenlabs.org>  Sat, 10 Feb 2018 19:58:07 +0100
 
 bunsen-os-release (9.2-1) helium; urgency=medium
 
   * Point release 9.2.
 
- -- Jens John <dev@2ion.de>  Fri, 10 Nov 2017 14:52:07 +0100
+ -- packages <project@bunsenlabs.org>  Fri, 10 Nov 2017 14:52:07 +0100
 
 bunsen-os-release (9.1-1) helium; urgency=medium
 
   * Point release 9.1.
 
- -- Jens John <dev@2ion.de>  Tue, 29 Aug 2017 21:48:23 +0200
+ -- packages <project@bunsenlabs.org>  Tue, 29 Aug 2017 21:48:23 +0200
 
 bunsen-os-release (8.9-1) bunsen-hydrogen; urgency=medium
 
   * Point release 8.9.
 
- -- Jens John <dev@2ion.de>  Tue, 29 Aug 2017 21:48:23 +0200
+ -- packages <project@bunsenlabs.org>  Tue, 29 Aug 2017 21:48:23 +0200
 
 bunsen-os-release (8.7-1) bunsen-hydrogen; urgency=medium
 
   * Point release 8.7.
 
- -- Jens John <dev@2ion.de>  Sun, 15 Jan 2017 15:33:27 +0100
+ -- packages <project@bunsenlabs.org>  Sun, 15 Jan 2017 15:33:27 +0100
 
 bunsen-os-release (8.6.1-1) bunsen-hydrogen; urgency=medium
 
   * The last commit did not actually update anything.
 
- -- Jens John <dev@2ion.de>  Wed, 16 Nov 2016 14:46:52 +0100
+ -- packages <project@bunsenlabs.org>  Wed, 16 Nov 2016 14:46:52 +0100
 
 bunsen-os-release (8.6-1) bunsen-hydrogen; urgency=medium
 
   * New Debian point release 8.6 (I am late I know)
   * python-apt: update mirror list
 
- -- Jens John <dev@2ion.de>  Wed, 16 Nov 2016 14:38:50 +0100
+ -- packages <project@bunsenlabs.org>  Wed, 16 Nov 2016 14:38:50 +0100
 
 bunsen-os-release (8.5.1-1) bunsen-hydrogen; urgency=medium
 
   * Update and correct typos in man page.
 
- -- Jens John <twoion@bunsenlabs.org>  Sun, 05 Jun 2016 14:39:53 +0900
+ -- packages <project@bunsenlabs.org>  Sun, 05 Jun 2016 14:39:53 +0900
 
 bunsen-os-release (8.5-1) bunsen-hydrogen; urgency=medium
 
@@ -160,50 +160,50 @@ bunsen-os-release (8.5-1) bunsen-hydrogen; urgency=medium
   * Update maintainer email address in debian/control.
   * Update package description to reflect the expanded scope of the package.
 
- -- Jens John <twoion@bunsenlabs.org>  Sun, 05 Jun 2016 14:27:53 +0900
+ -- packages <project@bunsenlabs.org>  Sun, 05 Jun 2016 14:27:53 +0900
 
 bunsen-os-release (8.4.1-1) bunsen-hydrogen; urgency=medium
 
   * Set deb-origin(5) to bunsenlabs and provide vendor identification.
 
- -- Jens John <dev@2ion.de>  Sat, 04 Jun 2016 08:17:53 +0200
+ -- packages <project@bunsenlabs.org>  Sat, 04 Jun 2016 08:17:53 +0200
 
 bunsen-os-release (8.4-1) bunsen-hydrogen; urgency=medium
 
   * New Debian point release 8.4
 
- -- Jens John <dev@2ion.de>  Sun, 03 Apr 2016 21:11:53 +0900
+ -- packages <project@bunsenlabs.org>  Sun, 03 Apr 2016 21:11:53 +0900
 
 bunsen-os-release (8.3.1-2) bunsen-hydrogen; urgency=medium
 
   * Correct date error in debian/changelog.
 
- -- Jens John <dev@2ion.de>  Tue, 02 Feb 2016 16:46:53 +0100
+ -- packages <project@bunsenlabs.org>  Tue, 02 Feb 2016 16:46:53 +0100
 
 bunsen-os-release (8.3.1-1) bunsen-hydrogen; urgency=high
 
   * os-release: Change SUPPORT_URL to point to the forums
   * os-release: Use https:// in all mentioned URLs
 
- -- Jens John <dev@2ion.de>  Tue, 2 Feb 2016 22:27:08 +0900
+ -- packages <project@bunsenlabs.org>  Tue, 2 Feb 2016 22:27:08 +0900
 
 bunsen-os-release (8.3-1) bunsen-hydrogen; urgency=high
 
   * Sync release version with new Debian 8.3 point release.
 
- -- Jens John <dev@2ion.de>  Sun, 24 Jan 2016 13:27:08 +0900
+ -- packages <project@bunsenlabs.org>  Sun, 24 Jan 2016 13:27:08 +0900
 
 bunsen-os-release (8.2.3-3) bunsen-hydrogen; urgency=high
 
   * bunsen-python-apt-template is now a dependency of bunsen-os-release.
 
- -- Jens John <dev@2ion.de>  Sun, 3 Jan 2016 14:54:36 +0900
+ -- packages <project@bunsenlabs.org>  Sun, 3 Jan 2016 14:54:36 +0900
 
 bunsen-os-release (8.2.3-2) bunsen-hydrogen; urgency=high
 
   * bunsen-python-apt-template: Pre-Depend on python-apt-common.
 
- -- Jens John <dev@2ion.de>  Sat, 2 Jan 2016 16:24:36 +0900
+ -- packages <project@bunsenlabs.org>  Sat, 2 Jan 2016 16:24:36 +0900
 
 bunsen-os-release (8.2.3-1) bunsen-hydrogen; urgency=high
 
@@ -213,58 +213,58 @@ bunsen-os-release (8.2.3-1) bunsen-hydrogen; urgency=high
   * As part of this change, DISTRIB_CODENAME as reported by lsb_release is now
     set to 'bunsen-hydrogen' instead of just 'Hydrogen'.
 
- -- Jens John <dev@2ion.de>  Sat, 2 Jan 2016 15:38:36 +0900
+ -- packages <project@bunsenlabs.org>  Sat, 2 Jan 2016 15:38:36 +0900
 
 bunsen-os-release (8.2.1-1) bunsen-hydrogen; urgency=medium
 
   * Add man page explaining purpose and caveats
 
- -- Jens John <dev@2ion.de>  Thu, 17 Dec 2015 13:00:28 +0100
+ -- packages <project@bunsenlabs.org>  Thu, 17 Dec 2015 13:00:28 +0100
 
 bunsen-os-release (8.2-1) bunsen-hydrogen; urgency=medium
 
   * Update for Debian 8.2 release
 
- -- Jens John <dev@2ion.de>  Wed, 9 Sep 2015 22:19:51 +0200
+ -- packages <project@bunsenlabs.org>  Wed, 9 Sep 2015 22:19:51 +0200
 
 bunsen-os-release (8.1-3) bunsen-hydrogen; urgency=medium
 
   * Change suite to bunsen-hydrogen.
 
- -- Jens John <dev@2ion.de>  Sun, 30 Aug 2015 16:33:51 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 30 Aug 2015 16:33:51 +0200
 
 bunsen-os-release (8.1-1) unstable; urgency=medium
 
   * Update OS version to 8.1 as Jessie 8.1 was released on 2015-06-06
 
- -- Jens John <dev@2ion.de>  Tue, 9 Jun 2015 18:22:52 +0200
+ -- packages <project@bunsenlabs.org>  Tue, 9 Jun 2015 18:22:52 +0200
 
 bunsen-os-release (8-5) unstable; urgency=medium
 
   * debian/control: Add Vcs-* fields to the source package
 
- -- Jens John <dev@2ion.de>  Sun, 24 May 2015 14:25:54 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 24 May 2015 14:25:54 +0200
 
 bunsen-os-release (8-4) unstable; urgency=medium
 
   * debian/control: Update package description
 
- -- Jens John <dev@2ion.de>  Sun, 24 May 2015 00:57:25 +0200
+ -- packages <project@bunsenlabs.org>  Sun, 24 May 2015 00:57:25 +0200
 
 bunsen-os-release (8-3) unstable; urgency=medium
 
   * debian/control: Recommend the lsb-release package
 
- -- Jens John <dev@2ion.de>  Sat, 23 May 2015 18:21:20 +0200
+ -- packages <project@bunsenlabs.org>  Sat, 23 May 2015 18:21:20 +0200
 
 bunsen-os-release (8-2) unstable; urgency=medium
 
   * Support for lsb-release
 
- -- Jens John <dev@2ion.de>  Sat, 23 May 2015 17:59:12 +0200
+ -- packages <project@bunsenlabs.org>  Sat, 23 May 2015 17:59:12 +0200
 
 bunsen-os-release (8-1) unstable; urgency=low
 
   * Initial release with systemd support
 
- -- Jens John <dev@2ion.de>  Sat, 23 May 2015 16:12:58 +0200
+ -- packages <project@bunsenlabs.org>  Sat, 23 May 2015 16:12:58 +0200
