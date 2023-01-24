@@ -2,8 +2,9 @@ Source: bunsen-os-release
 Section: admin
 Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
-Build-Depends: debhelper (>= 9), config-package-dev (>= 5.1), pandoc, gmsl
-Standards-Version: 3.9.5
+Build-Depends: debhelper-compat (= 13), config-package-dev (>= 5.1), pandoc, gmsl
+Rules-Requires-Root: no
+Standards-Version: 4.6.1.0
 Homepage: https://github.com/bunsenlabs/bunsen-os-release
 Vcs-Browser: https://github.com/bunsenlabs/bunsen-os-release
 Vcs-Git: https://github.com/bunsenlabs/bunsen-os-release.git

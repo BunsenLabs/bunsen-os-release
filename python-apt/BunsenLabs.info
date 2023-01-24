@@ -69,3 +69,21 @@ MirrorsFile: BunsenLabs.mirrors
 Description: BunsenLabs 11 Beryllium ports collection
 Component: main
 CompDescription: Officially supported
+
+Suite: boron
+RepositoryType: deb
+BaseURI: https://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 11 Boron
+Component: main
+CompDescription: Officially supported
+
+Suite: bookworm-backports
+RepositoryType: deb
+BaseURI: https://pkg.bunsenlabs.org/debian/
+MatchURI: pkg.bunsenlabs.org
+MirrorsFile: BunsenLabs.mirrors
+Description: BunsenLabs 11 Boron ports collection
+Component: main
+CompDescription: Officially supported

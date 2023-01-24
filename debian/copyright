@@ -3,7 +3,7 @@ Upstream-Name: bunsen-os-release
 Source: https://github.com/bunsenlabs/bunsen-os-release
 
 Files: *
-Copyright: 2015-2022 BunsenLabs
+Copyright: 2015-2023 BunsenLabs
 License: GPL-3.0+
 
 License: GPL-3.0+

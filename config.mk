@@ -5,7 +5,7 @@ include /usr/include/gmsl
 #
 
 OS_BUG_REPORT_URL     = https://forums.bunsenlabs.org/viewforum.php?id=14
-OS_CODENAME           = Beryllium
+OS_CODENAME           = Boron
 OS_CODENAME_LOWERCASE = $(call lc,$(OS_CODENAME))
 OS_COLOR              = 0;34
 OS_HOMEPAGE           = https://www.bunsenlabs.org
@@ -17,7 +17,7 @@ OS_PRETTY_ID          = BunsenLabs
 OS_PRIVACY_POLICY_URL = https://www.bunsenlabs.org/legal.html
 OS_SUPPORT_URL        = https://forums.bunsenlabs.org
 OS_VERSION            = $(OS_CODENAME) ($(OS_VERSION_ID))
-OS_VERSION_ID         = 11
+OS_VERSION_ID         = 12
 
 define OS_RELEASE_FILE
 ANSI_COLOR="$(OS_COLOR)"
