@@ -1,3 +1,14 @@
+bunsen-os-release (12.0-1) boron; urgency=medium
+
+  * Migrate for Debian Bookworm
+    - debian/control: Bump Standards-Version to 4.6.1.0 - no changes required.
+    - debian/control: Declare debhelper compatibility 13.
+    - debian/control: Add Rules-Requires-Root: no
+    - debian/copyright: update year, use https Format url.
+  * Update config files to refer to Boron release.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 24 Jan 2023 18:29:22 +0900
+
 bunsen-os-release (11.3-2) beryllium; urgency=medium
 
   * Fix copyright file format.
