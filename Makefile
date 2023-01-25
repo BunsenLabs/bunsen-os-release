@@ -10,8 +10,9 @@ all: $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS)
 clean:
 	rm -f -- $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS) *.sed
 
-install: $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS)
-	$(foreach m,$^,$(shell install -Dm644 $(m) $(DESTDIR)$(PREFIX)/usr/share/man/man$(call mancat,$(m))/$(m)))
+# debhelper handles the install via debian/manpages and debian/install
+#install: $(MANPAGE_TARGETS) $(RELEASE_FILE_TARGETS)
+#	$(foreach m,$^,$(shell install -Dm644 $(m) $(DESTDIR)$(PREFIX)/usr/share/man/man$(call mancat,$(m))/$(m)))
 
 $(LSB_RELEASE_FILE_TARGET): config.mk
 	printf '%s\n' "$$LSB_RELEASE_FILE" > $@
