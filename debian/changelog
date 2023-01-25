@@ -1,3 +1,9 @@
+bunsen-os-release (12.0.1-1) boron; urgency=medium
+
+  * Edit Makefile to simplify use of debhelper.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 25 Jan 2023 11:32:45 +0900
+
 bunsen-os-release (12.0-1) boron; urgency=medium
 
   * Migrate for Debian Bookworm
