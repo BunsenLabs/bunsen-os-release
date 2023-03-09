@@ -1,3 +1,9 @@
+bunsen-os-release (12.1.1-1) boron; urgency=medium
+
+  * Run update-grub after installation to display new default menu item title
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 09 Mar 2023 15:31:46 +0900
+
 bunsen-os-release (12.1-1) boron; urgency=medium
 
   * Add VERSION_CODENAME entry to os-release file.
