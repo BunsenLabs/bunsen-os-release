@@ -1,3 +1,10 @@
+bunsen-os-release (12.2-1) boron; urgency=medium
+
+  * Update PRIVACY_POLICY_URL in /usr/lib/os-release
+  * Fix naming of debian maiintainer scripts.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 15 May 2023 10:33:52 +0900
+
 bunsen-os-release (12.1.1-1) boron; urgency=medium
 
   * Run update-grub after installation to display new default menu item title
