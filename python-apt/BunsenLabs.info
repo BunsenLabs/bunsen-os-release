@@ -75,7 +75,7 @@ RepositoryType: deb
 BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
-Description: BunsenLabs 11 Boron
+Description: BunsenLabs 12 Boron
 Component: main
 CompDescription: Officially supported
 
@@ -84,6 +84,6 @@ RepositoryType: deb
 BaseURI: https://pkg.bunsenlabs.org/debian/
 MatchURI: pkg.bunsenlabs.org
 MirrorsFile: BunsenLabs.mirrors
-Description: BunsenLabs 11 Boron ports collection
+Description: BunsenLabs 12 Boron ports collection
 Component: main
 CompDescription: Officially supported
