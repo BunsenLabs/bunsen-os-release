@@ -1,3 +1,9 @@
+bunsen-os-release (12.3-1) boron; urgency=medium
+
+  * python-apt/BunsenLabs.info: fix release number in Description fields
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 07 Apr 2024 15:40:44 +0900
+
 bunsen-os-release (12.2-1) boron; urgency=medium
 
   * Update PRIVACY_POLICY_URL in /usr/lib/os-release
