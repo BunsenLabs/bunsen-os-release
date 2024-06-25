@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
 Build-Depends: debhelper-compat (= 13), config-package-dev (>= 5.1), pandoc, gmsl
 Rules-Requires-Root: no
-Standards-Version: 4.6.1.0
+Standards-Version: 4.6.2
 Homepage: https://github.com/bunsenlabs/bunsen-os-release
 Vcs-Browser: https://github.com/bunsenlabs/bunsen-os-release
 Vcs-Git: https://github.com/bunsenlabs/bunsen-os-release.git
