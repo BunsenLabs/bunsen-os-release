@@ -1,3 +1,12 @@
+bunsen-os-release (13.0-1) carbon; urgency=medium
+
+  * Migrate for Debian Trixie
+    - debian/control: Bump Standards-Version to 4.6.2 - no changes required.
+    - debian/copyright: update year.
+  * Update config files to refer to Carbon release.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 25 Jun 2024 14:41:54 +0900
+
 bunsen-os-release (12.3-1) boron; urgency=medium
 
   * python-apt/BunsenLabs.info: fix release number in Description fields
